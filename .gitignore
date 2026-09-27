@@ -1,0 +1,41 @@
+# ==========================================
+# Python & Virtual Environments
+# ==========================================
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.installed.cfg
+.pytest_cache/
+.ruff_cache/
+
+# ==========================================
+# Environment Variables & Secrets
+# ==========================================
+.env
+
+# ==========================================
+# IDEs and Editors
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==========================================
+# PlatformIO / Firmware Build Outputs
+# ==========================================
+.pio/
+firmware/.pio/
+firmware/.vscode/
+
+# ==========================================
+# OS Generated Files
+# ==========================================
+.DS_Store
+Thumbs.db
